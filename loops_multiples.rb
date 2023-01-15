@@ -18,4 +18,11 @@
 # 20
 
 p "Enter a number:"
+user = gets.chomp
+count = 0
+while count<10
+  count = count+1
+  p user.to_i*count
+end 
+
 
